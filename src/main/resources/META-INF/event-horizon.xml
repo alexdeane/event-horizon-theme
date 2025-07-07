@@ -35,7 +35,7 @@
         <option name="GUTTER_BACKGROUND" value="030507" />
         <option name="HTML_TAG_TREE_LEVEL0" value="bd7df8" />
         <option name="HTML_TAG_TREE_LEVEL1" value="f482ec" />
-        <option name="HTML_TAG_TREE_LEVEL2" value="9cc46e" />
+        <option name="HTML_TAG_TREE_LEVEL2" value="34e7f4" />
         <option name="HTML_TAG_TREE_LEVEL3" value="ded15f" />
         <option name="HTML_TAG_TREE_LEVEL4" value="05c895" />
         <option name="HTML_TAG_TREE_LEVEL5" value="1296de" />
@@ -76,7 +76,7 @@
     <attributes>
         <option name="DEFAULT_ATTRIBUTE">
             <value>
-                <option name="FOREGROUND" value="34e7f4" />
+                <option name="FOREGROUND" value="0bb8c5" />
             </value>
         </option>
         <option name="DEFAULT_BLOCK_COMMENT">
@@ -108,7 +108,7 @@
         </option>
         <option name="DEFAULT_CLASS_NAME">
             <value>
-                <option name="FOREGROUND" value="9cc46e" />
+                <option name="FOREGROUND" value="34e7f4" />
             </value>
         </option>
         <option name="DEFAULT_CLASS_REFERENCE">
@@ -123,7 +123,9 @@
         </option>
         <option name="DEFAULT_CONSTANT">
             <value>
-                <option name="FOREGROUND" value="f482ec" />
+                <option name="FOREGROUND" value="05c895" />
+                <option name="EFFECT_TYPE" value="1" />
+                <option name="EFFECT_COLOR" value="05c895" />
             </value>
         </option>
         <option name="DEFAULT_DOC_COMMENT">
@@ -174,7 +176,7 @@
         </option>
         <option name="DEFAULT_LABEL">
             <value>
-                <option name="FOREGROUND" value="9cc46e" />
+                <option name="FOREGROUND" value="34e7f4" />
             </value>
         </option>
         <option name="DEFAULT_INSTANCE_FIELD">
@@ -184,7 +186,7 @@
         </option>
         <option name="DEFAULT_INTERFACE_NAME">
             <value>
-                <option name="FOREGROUND" value="34e7f4" />
+                <option name="FOREGROUND" value="0bb8c5" />
             </value>
         </option>
         <option name="DEFAULT_INVALID_STRING_ESCAPE">
@@ -195,6 +197,11 @@
             </value>
         </option>
         <option name="DEFAULT_KEYWORD">
+            <value>
+                <option name="FOREGROUND" value="bd7df8" />
+            </value>
+        </option>
+        <option name="DEFAULT_LAMBDA_ARROW">
             <value>
                 <option name="FOREGROUND" value="bd7df8" />
             </value>
@@ -216,7 +223,7 @@
         </option>
         <option name="DEFAULT_METADATA">
             <value>
-                <option name="FOREGROUND" value="34e7f4" />
+                <option name="FOREGROUND" value="0bb8c5" />
             </value>
         </option>
         <option name="DEFAULT_NUMBER">
@@ -231,7 +238,7 @@
         </option>
         <option name="DEFAULT_PREDEFINED_SYMBOL">
             <value>
-                <option name="FOREGROUND" value="9cc46e" />
+                <option name="FOREGROUND" value="34e7f4" />
             </value>
         </option>
         <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
@@ -394,7 +401,7 @@
         </option>
         <option name="CONSOLE_CYAN_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="34e7f4" />
+                <option name="FOREGROUND" value="0bb8c5" />
             </value>
         </option>
         <option name="CONSOLE_DARKGRAY_OUTPUT">
@@ -449,7 +456,7 @@
         </option>
         <option name="CONSOLE_SYSTEM_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="9cc46e" />
+                <option name="FOREGROUND" value="34e7f4" />
             </value>
         </option>
         <option name="CONSOLE_USER_INPUT">
@@ -481,9 +488,9 @@
 
         <option name="CTRL_CLICKABLE">
             <value>
-                <option name="FOREGROUND" value="34e7f4" />
+                <option name="FOREGROUND" value="0bb8c5" />
                 <option name="FONT_TYPE" value="2" />
-                <option name="EFFECT_COLOR" value="34e7f4" />
+                <option name="EFFECT_COLOR" value="0bb8c5" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
@@ -506,7 +513,7 @@
         <option name="CSS.COLOR" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
         <option name="CSS.FUNCTION">
             <value>
-                <option name="FOREGROUND" value="9cc46e" />
+                <option name="FOREGROUND" value="34e7f4" />
             </value>
         </option>
         <option name="CSS.IMPORTANT">
@@ -517,7 +524,7 @@
         </option>
         <option name="CSS.URL">
             <value>
-                <option name="FOREGROUND" value="34e7f4" />
+                <option name="FOREGROUND" value="0bb8c5" />
             </value>
         </option>
 
@@ -609,8 +616,8 @@
 
         <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="34e7f4" />
-                <option name="EFFECT_COLOR" value="34e7f4" />
+                <option name="FOREGROUND" value="0bb8c5" />
+                <option name="EFFECT_COLOR" value="0bb8c5" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
@@ -632,7 +639,7 @@
 
         <option name="Scala Type parameter">
             <value>
-                <option name="FOREGROUND" value="34e7f4" />
+                <option name="FOREGROUND" value="0bb8c5" />
             </value>
         </option>
 
@@ -670,8 +677,8 @@
 
         <option name="HYPERLINK_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="34e7f4" />
-                <option name="EFFECT_COLOR" value="34e7f4" />
+                <option name="FOREGROUND" value="0bb8c5" />
+                <option name="EFFECT_COLOR" value="0bb8c5" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
@@ -686,7 +693,7 @@
 
         <option name="INACTIVE_HYPERLINK_ATTRIBUTES">
             <value>
-                <option name="EFFECT_COLOR" value="34e7f4" />
+                <option name="EFFECT_COLOR" value="0bb8c5" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
@@ -732,7 +739,7 @@
 
         <option name="KOTLIN_NAMED_ARGUMENT">
             <value>
-                <option name="FOREGROUND" value="34e7f4" />
+                <option name="FOREGROUND" value="0bb8c5" />
             </value>
         </option>
 
