@@ -5,10 +5,10 @@
     <vendor email="adeane43@gmail.com" url="http://github.com/alexdeane/jetbrains-theme">Alex Deane</vendor>
 
     <description><![CDATA[
-    <h3>A theme for lonely spacemen drifting their way through the cosmos</h3>
+    <h2>A theme for the lonely spaceman drifting his way through the cosmos</h2>
 
     Based on the <a href="https://github.com/jasonhulbert/jetbrains-trash-panda-theme/">Trash Panda Theme</a>
-    by Jason Hulbert, but with some modifications to improve clarity
+    by Jason Hulbert
     ]]></description>
 
     <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
