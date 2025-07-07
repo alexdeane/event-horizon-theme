@@ -21,10 +21,6 @@ java {
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellijPlatform {
     version = '2024.2'
-    plugins {
-        id 'org.intellij.scala'
-        id 'com.intellij.java'
-    }
 }
 
 patchPluginXml {
