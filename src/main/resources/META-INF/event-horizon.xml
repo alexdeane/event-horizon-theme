@@ -86,7 +86,7 @@
         </option>
         <option name="DEFAULT_BRACES">
             <value>
-                <option name="FOREGROUND" value="" />
+                <option name="FOREGROUND" value="fff906" />
             </value>
         </option>
         <option name="DEFAULT_PARENTHS">
@@ -101,10 +101,9 @@
         </option>
         <option name="DEFAULT_INSTANCE_METHOD">
             <value>
-                <option name="FOREGROUND" value="fff906" />
+                <option name="FOREGROUND" value="fef7f4" />
                 <option name="EFFECT_TYPE" value="1" />
-                <option name="EFFECT_COLOR" value="fff906" />
-                <option name="FONT_TYPE" value="1" />
+                <option name="EFFECT_COLOR" value="fef7f4" />
             </value>
         </option>
         <option name="DEFAULT_CLASS_NAME">
@@ -156,16 +155,14 @@
         <option name="DEFAULT_ENTITY" baseAttributes="DEFAULT_CONSTANT" />
         <option name="DEFAULT_FUNCTION_CALL">
             <value>
-                <option name="FOREGROUND" value="fff906" />
-                <option name="FONT_TYPE" value="1" />
+                <option name="FOREGROUND" value="fef7f4" />
             </value>
         </option>
         <option name="DEFAULT_FUNCTION_DECLARATION">
             <value>
-                <option name="FOREGROUND" value="fff906" />
+                <option name="FOREGROUND" value="fef7f4" />
                 <option name="EFFECT_TYPE" value="1" />
-                <option name="EFFECT_COLOR" value="fff906" />
-                <option name="FONT_TYPE" value="1" />
+                <option name="EFFECT_COLOR" value="fef7f4" />
             </value>
         </option>
         <option name="DEFAULT_GLOBAL_VARIABLE" baseAttributes="DEFAULT_IDENTIFIER" />
@@ -228,7 +225,9 @@
             </value>
         </option>
         <option name="DEFAULT_PARAMETER" baseAttributes="DEFAULT_IDENTIFIER">
-            <option name="FONT_TYPE" value="2" />
+            <value>
+                <option name="FONT_TYPE" value="2" />
+            </value>
         </option>
         <option name="DEFAULT_PREDEFINED_SYMBOL">
             <value>
@@ -249,10 +248,9 @@
         </option>
         <option name="DEFAULT_STATIC_METHOD">
             <value>
-                <option name="FOREGROUND" value="fff906" />
+                <option name="FOREGROUND" value="fef7f4" />
                 <option name="EFFECT_TYPE" value="1" />
-                <option name="EFFECT_COLOR" value="fff906" />
-                <option name="FONT_TYPE" value="1" />
+                <option name="EFFECT_COLOR" value="fef7f4" />
             </value>
         </option>
         <option name="DEFAULT_STRING">
@@ -628,8 +626,7 @@
         <!--   SCALA Tweaks     -->
         <option name="Scala Object method call">
             <value>
-                <option name="FOREGROUND" value="fff906" />
-                <option name="FONT_TYPE" value="1" />
+                <option name="FOREGROUND" value="fef7f4" />
             </value>
         </option>
 
@@ -640,6 +637,12 @@
         </option>
 
         <option name="Scala Parameter" baseAttributes="DEFAULT_PARAMETER" />
+        <option name="Scala Anonymous Parameter" baseAttributes="DEFAULT_PARAMETER" />
+
+        <!--    Java tweaks    -->
+        <option name="JAVA_INSTANCE_METHOD" baseAttributes="DEFAULT_INSTANCE_METHOD"/>
+        <option name="JAVA_STATIC_METHOD" baseAttributes="DEFAULT_STATIC_METHOD"/>
+        <option name="JAVA_METHOD_CALL" baseAttributes="DEFAULT_FUNCTION_CALL"/>
 
         <option name="GENERIC_SERVER_ERROR_OR_WARNING">
             <value>
