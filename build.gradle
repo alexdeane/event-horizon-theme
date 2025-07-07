@@ -1,0 +1,37 @@
+plugins {
+    id 'java'
+    id 'org.jetbrains.intellij.platform' version '2.6.0'
+}
+
+group 'com.adeane43'
+version '1.0.0'
+
+repositories {
+    mavenCentral()
+}
+
+buildSearchableOptions {
+    enabled = false
+}
+
+java {
+    targetCompatibility = '21'
+}
+
+// See https://github.com/JetBrains/gradle-intellij-plugin/
+intellijPlatform {
+    version = '2024.2'
+    plugins {
+        id 'org.intellij.scala'
+        id 'com.intellij.java'
+    }
+}
+
+patchPluginXml {
+    changeNotes = """
+    <h2>1.0.0 (2025.07.06)</h2>
+    <ul>
+        <li>Theme forked from Trash Panda</li>
+    </ul>
+    """
+}

@@ -1,0 +1,26 @@
+<idea-plugin>
+    <id>com.adeane.intellij.plugin.eventhorizontheme</id>
+    <name>Event Horizon Theme</name>
+    <version>1.0.0</version>
+    <vendor email="adeane43@gmail.com" url="http://github.com/alexdeane/jetbrains-theme">Alex Deane</vendor>
+
+    <description><![CDATA[
+    <h3>A theme for lonely spacemen drifting their way through the cosmos</h3>
+
+    Based on the <a href="https://github.com/jasonhulbert/jetbrains-trash-panda-theme/">Trash Panda Theme</a>
+    by Jason Hulbert, but with some modifications to improve clarity
+    ]]></description>
+
+    <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+        <themeProvider id="d6b0e072-3367-4550-802c-0efcc27e40ba" path="/META-INF/event-horizon.theme.json"/>
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+</idea-plugin>
