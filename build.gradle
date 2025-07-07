@@ -8,6 +8,16 @@ version '1.0.0'
 
 repositories {
     mavenCentral()
+
+    intellijPlatform {
+        defaultRepositories()
+    }
+}
+
+dependencies {
+    intellijPlatform {
+        create "IC", "2024.2.5"
+    }
 }
 
 buildSearchableOptions {
@@ -18,9 +28,11 @@ java {
     targetCompatibility = '21'
 }
 
-// See https://github.com/JetBrains/gradle-intellij-plugin/
 intellijPlatform {
-    version = '2024.2'
+    pluginConfiguration {
+        name = "Event Horizon Theme"
+        version = "1.0.0"
+    }
 }
 
 patchPluginXml {
