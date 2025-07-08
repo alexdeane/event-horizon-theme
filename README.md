@@ -1,4 +1,4 @@
-A theme for jetbrains IDEs, inspired by the vastness of space and the solitude of a lone astronaut
+A theme for jetbrains IDEs inspired by the vastness of space and the solitude of a lone astronaut
 
 <h3>Themes included:</h3>
 <ul>
