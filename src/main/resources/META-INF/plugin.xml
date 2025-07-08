@@ -25,16 +25,17 @@
     </ul>
 
     Other languages will still work, but are not guaranteed to have the best possible experience.
-
-    Based on the <a href="https://plugins.jetbrains.com/plugin/12995-trash-panda-theme/">Trash Panda Theme</a>
-    by Jason Hulbert
+    <br/>
+    <br/>
+    <i>Based on the <a href="https://plugins.jetbrains.com/plugin/12995-trash-panda-theme/">Trash Panda Theme</a>
+    by Jason Hulbert</i>
     ]]></description><!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
          on how to target different products -->
     <depends>com.intellij.modules.platform</depends>
     <extensions defaultExtensionNs="com.intellij">
-        <themeProvider id="0b55e668-bff5-458e-b26c-ea04628ef4ba" path="/META-INF/event-horizon-galaxy.theme.json"/>
-        <themeProvider id="c486818a-227b-4141-8bb5-9c9e77985603" path="/META-INF/event-horizon-nebula.theme.json"/>
-        <themeProvider id="fecfb2e1-a658-49e7-83e1-898a52be6c75" path="/META-INF/event-horizon-void.theme.json"/>
+        <themeProvider id="b99ca877-041d-4fcd-a880-c98787cb33c8" path="/META-INF/event-horizon-galaxy.theme.json"/>
+        <themeProvider id="43e04b21-fa6d-4f17-8c41-e2b6b6de29df" path="/META-INF/event-horizon-nebula.theme.json"/>
+        <themeProvider id="bc1a278b-8e93-43e2-9b38-91dd8476726f" path="/META-INF/event-horizon-void.theme.json"/>
     </extensions>
     <actions><!-- Add your actions here --></actions>
 </idea-plugin>
