@@ -4,9 +4,9 @@
     <version>1.1.0</version>
     <vendor email="adeane43@gmail.com" url="http://github.com/alexdeane/event-horizon-theme">Alex Deane</vendor>
     <description><![CDATA[
-    <h4>A theme for the lonely spaceman drifting his way through the cosmos</h4>
+    <h2><i>A theme for the lonely spaceman drifting his way through the cosmos</i></h2>
 
-    <h5>Themes included:</h5>
+    <h3>Themes included:</h3>
     <ul>
         <li><b>Galaxy</b> - Default dark theme</li>
         <li><b>Nebula</b> - More vibrant colors</li>
@@ -33,9 +33,9 @@
          on how to target different products -->
     <depends>com.intellij.modules.platform</depends>
     <extensions defaultExtensionNs="com.intellij">
-        <themeProvider id="b99ca877-041d-4fcd-a880-c98787cb33c8" path="/META-INF/event-horizon-galaxy.theme.json"/>
-        <themeProvider id="43e04b21-fa6d-4f17-8c41-e2b6b6de29df" path="/META-INF/event-horizon-nebula.theme.json"/>
-        <themeProvider id="bc1a278b-8e93-43e2-9b38-91dd8476726f" path="/META-INF/event-horizon-void.theme.json"/>
+        <themeProvider id="119fbb0e-c973-4c93-bffe-3a3d29f9e854" path="/META-INF/event-horizon-galaxy.theme.json"/>
+        <themeProvider id="f783c66c-ae1b-4815-af12-8778bb8da612" path="/META-INF/event-horizon-nebula.theme.json"/>
+        <themeProvider id="63d1bd4e-48af-4c18-bcd9-bf1aee9dd74a" path="/META-INF/event-horizon-void.theme.json"/>
     </extensions>
     <actions><!-- Add your actions here --></actions>
 </idea-plugin>
