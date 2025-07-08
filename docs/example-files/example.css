@@ -1,0 +1,22 @@
+﻿.classRule {
+    color: blue;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+div {
+    caret: antiquewhite;
+}
+
+.classRule:hover {
+    color: red;
+}
+
+.classRule:active {
+    color: green;
+}
+
+#idRule {
+    color: purple;
+    font-size: 18px;
+}

@@ -1,12 +1,12 @@
-<scheme name="Event Horizon" version="142" parent_scheme="Darcula">
+<scheme name="Event Horizon (Void)" version="142" parent_scheme="Darcula">
     <colors>
         <option name="ActionButton.iconTextForeground" value="b8babd"/>
         <option name="ADDED_LINES_COLOR" value="013225" />
         <option name="BORDER_LINES_COLOR" value="41464a" />
         <option name="CARET_COLOR" value="406bf4" />
-        
+
         <option name="CARET_ROW_COLOR" value="101B3D" />
-        
+
         <option name="CONSOLE_BACKGROUND_KEY" value="030507" />
         <option name="DELETED_LINES_COLOR" value="3d100d" />
         <option name="DIFF_SEPARATORS_BACKGROUND" value="41464a" />
