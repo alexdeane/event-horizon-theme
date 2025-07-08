@@ -654,6 +654,12 @@
             </value>
         </option>
 
+        <option name="Scala Type Alias">
+            <value>
+                <option name="FOREGROUND" value="1296de" />
+            </value>
+        </option>
+
         <option name="Scala Parameter" baseAttributes="DEFAULT_PARAMETER" />
         <option name="Scala Anonymous Parameter" baseAttributes="DEFAULT_PARAMETER" />
 
