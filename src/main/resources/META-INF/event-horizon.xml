@@ -101,9 +101,9 @@
         </option>
         <option name="DEFAULT_INSTANCE_METHOD">
             <value>
-                <option name="FOREGROUND" value="45fa7b" />
+                <option name="FOREGROUND" value="ded15f" />
                 <option name="EFFECT_TYPE" value="1" />
-                <option name="EFFECT_COLOR" value="45fa7b" />
+                <option name="EFFECT_COLOR" value="ded15f" />
             </value>
         </option>
         <option name="DEFAULT_CLASS_NAME">
@@ -157,14 +157,14 @@
         <option name="DEFAULT_ENTITY" baseAttributes="DEFAULT_CONSTANT" />
         <option name="DEFAULT_FUNCTION_CALL">
             <value>
-                <option name="FOREGROUND" value="45fa7b" />
+                <option name="FOREGROUND" value="ded15f" />
             </value>
         </option>
         <option name="DEFAULT_FUNCTION_DECLARATION">
             <value>
-                <option name="FOREGROUND" value="45fa7b" />
+                <option name="FOREGROUND" value="ded15f" />
                 <option name="EFFECT_TYPE" value="1" />
-                <option name="EFFECT_COLOR" value="45fa7b" />
+                <option name="EFFECT_COLOR" value="ded15f" />
             </value>
         </option>
         <option name="DEFAULT_GLOBAL_VARIABLE" baseAttributes="DEFAULT_IDENTIFIER" />
@@ -261,20 +261,19 @@
         </option>
         <option name="DEFAULT_STATIC_METHOD">
             <value>
-                <option name="FOREGROUND" value="45fa7b" />
+                <option name="FOREGROUND" value="ded15f" />
                 <option name="EFFECT_TYPE" value="1" />
-                <option name="EFFECT_COLOR" value="45fa7b" />
+                <option name="EFFECT_COLOR" value="ded15f" />
             </value>
         </option>
         <option name="DEFAULT_STRING">
             <value>
-                <option name="FOREGROUND" value="ded15f" />
+                <option name="FOREGROUND" value="1474f5" />
             </value>
         </option>
         <option name="DEFAULT_TAG">
             <value>
-                <option name="FOREGROUND" value="bd7df8" />
-                <option name="EFFECT_TYPE" value="5" />
+                <option name="FOREGROUND" value="05c895" />
             </value>
         </option>
         <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR">
@@ -639,7 +638,7 @@
         <!--   SCALA Tweaks     -->
         <option name="Scala Object method call">
             <value>
-                <option name="FOREGROUND" value="45fa7b" />
+                <option name="FOREGROUND" value="ded15f" />
             </value>
         </option>
 
@@ -994,7 +993,11 @@
         <option name="XML_PROLOGUE" baseAttributes="TEXT" />
         <option name="XML_TAG" baseAttributes="DEFAULT_TAG" />
         <option name="XML_TAG_DATA" baseAttributes="TEXT" />
-        <option name="XML_TAG_NAME" baseAttributes="DEFAULT_KEYWORD" />
+        <option name="XML_TAG_NAME">
+            <value>
+                <option name="FOREGROUND" value="05c895" />
+            </value>
+        </option>
 
         <option name="XPATH.FUNCTION" baseAttributes="DEFAULT_FUNCTION_CALL" />
         <option name="XPATH.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
