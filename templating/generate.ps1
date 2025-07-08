@@ -27,8 +27,6 @@ foreach($config in $configs) {
     foreach ($token in $content.PSObject.Properties)
     {
         $tokenName = "%$( $token.Name )%";
-        echo "Replacing token: $tokenName with '$($token.Value)'";
-
         $schemeFileContent = $schemeFileContent.Replace($tokenName, $token.Value)
         $themeFileContent = $themeFileContent.Replace($tokenName, $token.Value)
     }

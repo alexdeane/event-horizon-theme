@@ -7,6 +7,13 @@
     <description><![CDATA[
     <h2>A theme for the lonely spaceman drifting his way through the cosmos</h2>
 
+    <h3>Themes included:</h3>
+    <ul>
+        <li><b>Galaxy</b> - Default dark theme</li>
+        <li><b>Nebula</b> - More vibrant colors</li>
+        <li><b>Void</b> - Black backgrounds, high contrast</li>
+    </ul>
+
     Based on the <a href="https://plugins.jetbrains.com/plugin/12995-trash-panda-theme/">Trash Panda Theme</a>
     by Jason Hulbert
     ]]></description>

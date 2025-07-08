@@ -1,14 +1,14 @@
-﻿{
-  "name": "%name%",
+{
+  "name": "Event Horizon (Galaxy)",
   "dark": true,
   "author": "Alex Deane",
-  "editorScheme": "/META-INF/%%fileName%%.xml",
+  "editorScheme": "/META-INF/event-horizon-galaxy.xml",
   "colors": {
     "transparent": "#00000000",
     "translucent": "#00000050",
     "base0": "#000000",
-    "base1": "#%editor-background%",
-    "base2": "#%ui-background%",
+    "base1": "#111213",
+    "base2": "#0a1118",
     "base3": "#41464a",
     "base4": "#5f656a",
     "base5": "#727a7f",
@@ -591,10 +591,10 @@
 
 
       "Checkbox.Border.Default.Dark": "#41464a",
-      "Checkbox.Background.Default.Dark": "#%editor-background%",
-      "Checkbox.Background.Selected.Dark": "#%editor-background%",
+      "Checkbox.Background.Default.Dark": "#111213",
+      "Checkbox.Background.Selected.Dark": "#111213",
       "Checkbox.Foreground.Selected.Dark": "#406bf4",
-      "Checkbox.Border.Selected.Dark": "#%editor-background%",
+      "Checkbox.Border.Selected.Dark": "#111213",
 
 
       "linkForeground": "#406bf4"

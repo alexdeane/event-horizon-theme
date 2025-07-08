@@ -1,7 +1,14 @@
 <idea-plugin><id>com.adeane.eventhorizontheme</id><name>Event Horizon Theme</name><version>1.0.0</version><vendor email="adeane43@gmail.com" url="http://github.com/alexdeane/event-horizon-theme">Alex Deane</vendor><description><![CDATA[
     <h2>A theme for the lonely spaceman drifting his way through the cosmos</h2>
 
+    <h3>Themes included:</h3>
+    <ul>
+        <li><b>Galaxy</b> - Default dark theme</li>
+        <li><b>Nebula</b> - More vibrant colors</li>
+        <li><b>Void</b> - Black backgrounds, high contrast</li>
+    </ul>
+
     Based on the <a href="https://plugins.jetbrains.com/plugin/12995-trash-panda-theme/">Trash Panda Theme</a>
     by Jason Hulbert
     ]]></description><!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
-         on how to target different products --><depends>com.intellij.modules.platform</depends><extensions defaultExtensionNs="com.intellij"><themeProvider id="89ca835d-f8dd-437f-b6bf-3bcddf39e41c" path="/META-INF/event-horizon-void.theme.json" /></extensions><actions><!-- Add your actions here --></actions></idea-plugin>
+         on how to target different products --><depends>com.intellij.modules.platform</depends><extensions defaultExtensionNs="com.intellij"><themeProvider id="c70aff2c-dd36-4435-8065-fcab16bff310" path="/META-INF/event-horizon-galaxy.theme.json" /><themeProvider id="28d95015-874f-48fe-9206-17ab2c8f9b44" path="/META-INF/event-horizon-nebula.theme.json" /><themeProvider id="ba1ec950-5144-4d64-8b75-8e8a4f4fb349" path="/META-INF/event-horizon-void.theme.json" /></extensions><actions><!-- Add your actions here --></actions></idea-plugin>
