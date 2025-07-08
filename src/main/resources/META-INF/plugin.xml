@@ -1,9 +1,4 @@
-<idea-plugin>
-    <id>com.adeane.eventhorizontheme</id>
-    <name>Event Horizon Theme</name>
-    <version>1.1.0</version>
-    <vendor email="adeane43@gmail.com" url="http://github.com/alexdeane/event-horizon-theme">Alex Deane</vendor>
-    <description><![CDATA[
+<idea-plugin><id>com.adeane.eventhorizontheme</id><name>Event Horizon Theme</name><vendor email="adeane43@gmail.com" url="http://github.com/alexdeane/event-horizon-theme">Alex Deane</vendor><description><![CDATA[
     <h2><i>A theme for the lonely spaceman drifting his way through the cosmos</i></h2>
 
     <h3>Themes included:</h3>
@@ -30,12 +25,4 @@
     <i>Based on the <a href="https://plugins.jetbrains.com/plugin/12995-trash-panda-theme/">Trash Panda Theme</a>
     by Jason Hulbert</i>
     ]]></description><!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
-         on how to target different products -->
-    <depends>com.intellij.modules.platform</depends>
-    <extensions defaultExtensionNs="com.intellij">
-        <themeProvider id="119fbb0e-c973-4c93-bffe-3a3d29f9e854" path="/META-INF/event-horizon-galaxy.theme.json"/>
-        <themeProvider id="f783c66c-ae1b-4815-af12-8778bb8da612" path="/META-INF/event-horizon-nebula.theme.json"/>
-        <themeProvider id="63d1bd4e-48af-4c18-bcd9-bf1aee9dd74a" path="/META-INF/event-horizon-void.theme.json"/>
-    </extensions>
-    <actions><!-- Add your actions here --></actions>
-</idea-plugin>
+         on how to target different products --><depends>com.intellij.modules.platform</depends><extensions defaultExtensionNs="com.intellij"><themeProvider id="02006e44-5300-4339-8ff0-e61481ae0f0a" path="/META-INF/event-horizon-galaxy.theme.json" /><themeProvider id="5c33f4a9-4d30-4f70-a7bb-a14f7068c64a" path="/META-INF/event-horizon-nebula.theme.json" /><themeProvider id="f98404c0-d65e-4a8d-bb08-0727590031ba" path="/META-INF/event-horizon-void.theme.json" /></extensions><actions><!-- Add your actions here --></actions></idea-plugin>

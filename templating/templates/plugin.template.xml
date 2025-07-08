@@ -1,7 +1,6 @@
 ﻿<idea-plugin>
     <id>com.adeane.eventhorizontheme</id>
     <name>Event Horizon Theme</name>
-    <version>1.1.0</version>
     <vendor email="adeane43@gmail.com" url="http://github.com/alexdeane/event-horizon-theme">Alex Deane</vendor>
 
     <description><![CDATA[
