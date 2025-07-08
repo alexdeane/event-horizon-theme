@@ -37,6 +37,12 @@ intellijPlatform {
 
 patchPluginXml {
     changeNotes = """
+    <h2>1.1.0 (2025.07.08)</h2>
+    <ul>
+        <li>Theme majorly redesigned</li>
+        <li>Scala/Java support updated</li>
+        <li>Theme split into 3 variants (Galaxy, Nebula, Void)</li>
+    </ul>
     <h2>1.0.0 (2025.07.06)</h2>
     <ul>
         <li>Theme forked from Trash Panda</li>

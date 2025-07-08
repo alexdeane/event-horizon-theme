@@ -1,14 +1,40 @@
-<idea-plugin><id>com.adeane.eventhorizontheme</id><name>Event Horizon Theme</name><version>1.0.0</version><vendor email="adeane43@gmail.com" url="http://github.com/alexdeane/event-horizon-theme">Alex Deane</vendor><description><![CDATA[
-    <h2>A theme for the lonely spaceman drifting his way through the cosmos</h2>
+<idea-plugin>
+    <id>com.adeane.eventhorizontheme</id>
+    <name>Event Horizon Theme</name>
+    <version>1.1.0</version>
+    <vendor email="adeane43@gmail.com" url="http://github.com/alexdeane/event-horizon-theme">Alex Deane</vendor>
+    <description><![CDATA[
+    <h4>A theme for the lonely spaceman drifting his way through the cosmos</h4>
 
-    <h3>Themes included:</h3>
+    <h5>Themes included:</h5>
     <ul>
         <li><b>Galaxy</b> - Default dark theme</li>
         <li><b>Nebula</b> - More vibrant colors</li>
         <li><b>Void</b> - Black backgrounds, high contrast</li>
     </ul>
 
+    This theme is designed specifically for the following languages:
+    <ul>
+        <li>Java</li>
+        <li>Typescript/Javascript</li>
+        <li>Scala</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JSON</li>
+        <li>XML</li>
+    </ul>
+
+    Other languages will still work, but are not guaranteed to have the best possible experience.
+
     Based on the <a href="https://plugins.jetbrains.com/plugin/12995-trash-panda-theme/">Trash Panda Theme</a>
     by Jason Hulbert
     ]]></description><!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
-         on how to target different products --><depends>com.intellij.modules.platform</depends><extensions defaultExtensionNs="com.intellij"><themeProvider id="5a9a1a28-017d-4ed9-98b8-99a1f1d1fa27" path="/META-INF/event-horizon-galaxy.theme.json" /><themeProvider id="de881242-956a-4080-90a7-d6081b6a5a0b" path="/META-INF/event-horizon-nebula.theme.json" /><themeProvider id="e9f53900-9a31-4cd4-9e5c-d138f7d6019d" path="/META-INF/event-horizon-void.theme.json" /></extensions><actions><!-- Add your actions here --></actions></idea-plugin>
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="0b55e668-bff5-458e-b26c-ea04628ef4ba" path="/META-INF/event-horizon-galaxy.theme.json"/>
+        <themeProvider id="c486818a-227b-4141-8bb5-9c9e77985603" path="/META-INF/event-horizon-nebula.theme.json"/>
+        <themeProvider id="fecfb2e1-a658-49e7-83e1-898a52be6c75" path="/META-INF/event-horizon-void.theme.json"/>
+    </extensions>
+    <actions><!-- Add your actions here --></actions>
+</idea-plugin>

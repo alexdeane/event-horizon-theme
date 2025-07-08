@@ -1,18 +1,31 @@
 ﻿<idea-plugin>
     <id>com.adeane.eventhorizontheme</id>
     <name>Event Horizon Theme</name>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <vendor email="adeane43@gmail.com" url="http://github.com/alexdeane/event-horizon-theme">Alex Deane</vendor>
 
     <description><![CDATA[
-    <h2>A theme for the lonely spaceman drifting his way through the cosmos</h2>
+    <h4>A theme for the lonely spaceman drifting his way through the cosmos</h4>
 
-    <h3>Themes included:</h3>
+    <h5>Themes included:</h5>
     <ul>
         <li><b>Galaxy</b> - Default dark theme</li>
         <li><b>Nebula</b> - More vibrant colors</li>
         <li><b>Void</b> - Black backgrounds, high contrast</li>
     </ul>
+
+    This theme is designed specifically for the following languages:
+    <ul>
+        <li>Java</li>
+        <li>Typescript/Javascript</li>
+        <li>Scala</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JSON</li>
+        <li>XML</li>
+    </ul>
+
+    Other languages will still work, but are not guaranteed to have the best possible experience.
 
     Based on the <a href="https://plugins.jetbrains.com/plugin/12995-trash-panda-theme/">Trash Panda Theme</a>
     by Jason Hulbert
