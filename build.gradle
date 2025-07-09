@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.adeane43'
-version '1.0.0'
+version '1.2.0'
 
 repositories {
     mavenCentral()
@@ -31,12 +31,17 @@ java {
 intellijPlatform {
     pluginConfiguration {
         name = "Event Horizon Theme"
-        version = "1.1.0"
+        version = "1.2.0"
     }
 }
 
 patchPluginXml {
     changeNotes = """
+    <h2>1.2.0 (2025.07.09)</h2>
+    <ul>
+        <li>Fix some editor color schemes not matching</li>
+        <li>Color changes to Nebula variant for improved contrast</li>
+    </ul>
     <h2>1.1.0 (2025.07.08)</h2>
     <ul>
         <li>Theme majorly redesigned</li>

@@ -10,7 +10,7 @@
         <option name="CONSOLE_BACKGROUND_KEY" value="011423" />
         <option name="DELETED_LINES_COLOR" value="3d100d" />
         <option name="DIFF_SEPARATORS_BACKGROUND" value="41464a" />
-        <option name="DOCUMENTATION_COLOR" value="0c0e10" />
+        <option name="DOCUMENTATION_COLOR" value="01101d" />
         <option name="ERROR_HINT" value="3d100d" />
         <option name="FILESTATUS_ADDED" value="05c895" />
         <option name="FILESTATUS_COPIED" value="05c895" />
@@ -43,19 +43,19 @@
         <option name="IGNORED_DELETED_LINES_BORDER_COLOR" value="b73027" />
         <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR" value="0e71a7" />
         <option name="INDENT_GUIDE" value="41464a" />
-        <option name="INFORMATION_HINT" value="0c0e10" />
+        <option name="INFORMATION_HINT" value="01101d" />
         <option name="LINE_NUMBERS_COLOR" value="5f656a" />
         <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="406bf4" />
-        <option name="LOOKUP_COLOR" value="0c0e10" />
+        <option name="LOOKUP_COLOR" value="01101d" />
         <option name="METHOD_SEPARATORS_COLOR" value="41464a" />
         <option name="MODIFIED_LINES_COLOR" value="052638" />
         <option name="MODIFIED_TAB_ICON" value="1296de" />
-        <option name="NOTIFICATION_BACKGROUND" value="0c0e10" />
-        <option name="PROMOTION_PANE" value="0c0e10" />
-        <option name="QUESTION_HINT" value="0c0e10" />
-        <option name="READONLY_BACKGROUND" value="0c0e10" />
+        <option name="NOTIFICATION_BACKGROUND" value="01101d" />
+        <option name="PROMOTION_PANE" value="01101d" />
+        <option name="QUESTION_HINT" value="01101d" />
+        <option name="READONLY_BACKGROUND" value="01101d" />
         <option name="READONLY_FRAGMENT_BACKGROUND" value="41464a" />
-        <option name="RECENT_LOCATIONS_SELECTION" value="0c0e10" />
+        <option name="RECENT_LOCATIONS_SELECTION" value="01101d" />
         <option name="RIGHT_MARGIN_COLOR" value="41464a" />
         <option name="SELECTED_INDENT_GUIDE" value="5f656a" />
         <option name="SELECTED_TEARLINE_COLOR" value="5f656a" />
@@ -68,7 +68,7 @@
         <option name="TAB_UNDERLINE" value="406bf4" />
         <option name="TAB_UNDERLINE_INACTIVE" value="18285C" />
         <option name="TEARLINE_COLOR" value="41464a" />
-        <option name="TOOLTIP" value="0c0e10" />
+        <option name="TOOLTIP" value="01101d" />
         <option name="VISUAL_INDENT_GUIDE" value="41464a" />
         <option name="WHITESPACES" value="41464a" />
         <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="013225" />
@@ -199,7 +199,7 @@
         </option>
         <option name="DEFAULT_KEYWORD">
             <value>
-                <option name="FOREGROUND" value="bd7df8" />
+                <option name="FOREGROUND" value="bd76ff" />
             </value>
         </option>
         <option name="DEFAULT_LAMBDA_ARROW">
@@ -268,7 +268,7 @@
         </option>
         <option name="DEFAULT_STRING">
             <value>
-                <option name="FOREGROUND" value="1474f5" />
+                <option name="FOREGROUND" value="ecc48d" />
             </value>
         </option>
         <option name="DEFAULT_TAG">
@@ -472,7 +472,7 @@
         <option name="CONSOLE_BLACK_OUTPUT">
             <value>
                 <option name="FOREGROUND" value="b8babd" />
-                <option name="BACKGROUND" value="0c0e10" />
+                <option name="BACKGROUND" value="01101d" />
             </value>
         </option>
         <option name="CONSOLE_WHITE_OUTPUT">
