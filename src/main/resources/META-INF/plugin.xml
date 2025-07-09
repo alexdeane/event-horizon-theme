@@ -1,11 +1,15 @@
-<idea-plugin><id>com.adeane.eventhorizontheme</id><name>Event Horizon Theme</name><vendor email="adeane43@gmail.com" url="http://github.com/alexdeane/event-horizon-theme">Alex Deane</vendor><description><![CDATA[
+<idea-plugin>
+    <id>com.adeane.eventhorizontheme</id>
+    <name>Event Horizon Theme</name>
+    <vendor email="adeane43@gmail.com" url="http://github.com/alexdeane/event-horizon-theme">Alex Deane</vendor>
+    <description><![CDATA[
     <h2><i>A theme for the lonely spaceman drifting his way through the cosmos</i></h2>
 
     <h3>Themes included:</h3>
     <ul>
-        <li><b>Galaxy</b> - Default dark theme</li>
+        <li><b>Galaxy</b> - The standard dark theme</li>
         <li><b>Nebula</b> - More vibrant colors</li>
-        <li><b>Void</b> - Black backgrounds, high contrast</li>
+        <li><b>Void</b> - Black backgrounds, high contrast. The quintessential Event Horizon Theme experience.</li>
     </ul>
 
     This theme is designed specifically for the following languages:
@@ -25,4 +29,12 @@
     <i>Based on the <a href="https://plugins.jetbrains.com/plugin/12995-trash-panda-theme/">Trash Panda Theme</a>
     by Jason Hulbert</i>
     ]]></description><!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
-         on how to target different products --><depends>com.intellij.modules.platform</depends><extensions defaultExtensionNs="com.intellij"><themeProvider id="d653cbc0-13ef-4194-926c-1f5747b085dd" path="/META-INF/event-horizon-galaxy.theme.json" /><themeProvider id="8db7cb9b-c480-4cd0-98a0-14475850a6ea" path="/META-INF/event-horizon-nebula.theme.json" /><themeProvider id="2aeb4d23-9304-4e96-9b3b-123aa5c5d472" path="/META-INF/event-horizon-void.theme.json" /></extensions><actions><!-- Add your actions here --></actions></idea-plugin>
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="2b0b5915-b7ae-4f63-b891-8fd3f9005dd3" path="/META-INF/event-horizon-galaxy.theme.json"/>
+        <themeProvider id="a1e80ed2-068f-44b2-a765-0223e7c409c1" path="/META-INF/event-horizon-nebula.theme.json"/>
+        <themeProvider id="e71a3b43-3ae8-40d5-9ec3-0eeaa0e26326" path="/META-INF/event-horizon-void.theme.json"/>
+    </extensions>
+    <actions><!-- Add your actions here --></actions>
+</idea-plugin>
