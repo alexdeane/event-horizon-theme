@@ -1,3 +1,5 @@
+# Event Horizon
+
 A theme for jetbrains IDEs inspired by the vastness of space and the solitude of a lone astronaut
 
 <h3>Themes included:</h3>
@@ -19,6 +21,22 @@ This theme is designed specifically for the following languages:
 </ul>
 
 Other languages will still work, but are not guaranteed to have the best possible experience.
+
+## Event Horizon Void
+<p>Black backgrounds, high contrast</p>
+
+![event-horizon-void](./docs/screenshots/void.png)
+
+## Event Horizon Galaxy
+<p>Traditional dark theme</p>
+
+![event-horizon-galaxy](./docs/screenshots/galaxy.png)
+
+## Event Horizon Nebula
+<p>Vibrant colors</p>
+
+![event-horizon-nebula](./docs/screenshots/nebula.png)
+
 <br/>
 <br/>
 <i>Based on the <a href="https://plugins.jetbrains.com/plugin/12995-trash-panda-theme/">Trash Panda Theme</a>
